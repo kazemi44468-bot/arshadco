@@ -14,6 +14,12 @@
 .intro .calligraphy{font-size:clamp(16px,2vw,27px);line-height:1.55;margin:7px 0 0;color:#315a56}
 .intro .slogan{font-size:clamp(10px,1.1vw,14px);margin-top:2px}
 .mission-label{color:var(--accent);font-size:11px}
+.section-head small,.domain-card>span,.tag,.project-card>small,.knowledge-panel>div>span{font-family:Shekasteh,"B Nazanin",serif;font-size:15px;line-height:1.6}
+.about-note strong{font-family:Shekasteh,"B Nazanin",serif;font-weight:400}
+.footer-mark strong{font-family:Shekasteh,"B Nazanin",serif;font-weight:400;font-size:18px;line-height:1.7;color:var(--ink)}
+.footer-logo-link{display:grid;place-items:center;border-radius:50%;transition:.3s}
+.footer-logo-link:hover{transform:translateY(-2px);filter:drop-shadow(0 8px 14px rgba(23,107,103,.16))}
+@media(max-width:700px){.section-head small,.domain-card>span,.tag,.project-card>small,.knowledge-panel>div>span{font-size:14px}.footer-mark strong{font-size:16px}}
 </style>
 </head>
 <body>
@@ -91,7 +97,7 @@
 <div class="contact-inner reveal"><span class="section-no">۰۸</span><h2>یک فرصت، یک ایده یا یک تصمیم مهم دارید؟</h2><p>گفت‌وگو را از مسئله شروع کنیم و به یک مسیر روشن برسیم.</p><a class="contact-button" href="mailto:info@arshadco.ir">info@arshadco.ir</a></div>
 </section>
 </main>
-<footer><div class="footer-mark"><img src="images/logo.png" alt="لوگوی گروه"><strong>گروه برنامه‌ریزی و سرمایه‌گذاری ارشد</strong></div><div>© ۱۴۰۵ — تمامی حقوق محفوظ است.</div></footer>
+<footer><div class="footer-mark"><a href="#home" class="footer-logo-link" aria-label="بازگشت به خانه"><img src="images/logo.png" alt="لوگوی گروه"></a><strong>گروه برنامه‌ریزی و سرمایه‌گذاری ارشد</strong></div><div>© ۱۴۰۵ — تمامی حقوق محفوظ است.</div></footer>
 <script>
 const toggle=document.getElementById('menuToggle');
 const rail=document.querySelector('.side-rail');
