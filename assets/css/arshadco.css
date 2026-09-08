@@ -1,7 +1,8 @@
 @font-face{font-family:"A Soraya";font-display:swap;src:url('../fonts/a_soraya.woff') format('woff'),url('../fonts/a_soraya.ttf') format('truetype'),url('../fonts/a_soraya.svg#') format('svg'),url('../fonts/a_soraya.eot') format('embedded-opentype')}
-@font-face{font-family:"Vazir";font-display:swap;src:url('../fonts/Vazir.woff2') format('woff2'),url('../fonts/Vazir.woff') format('woff'),url('../fonts/Vazir.ttf') format('truetype'),url('../fonts/vazir-fd-wol.svg#Vazir') format('svg'),url('../fonts/Vazir.eot') format('embedded-opentype')}
+@font-face{font-family:"Vazir";font-display:swap;src:url('../fonts/Vazirmatn[wght].woff2') format('woff2')}
 @font-face{font-family:"A Iranian Sans";font-display:swap;src:url('../fonts/iransans.woff') format('woff'),url('../fonts/iransans.ttf') format('truetype'),url('../fonts/iransans.svg#') format('svg'),url('../fonts/iransans.eot') format('embedded-opentype')}
 @font-face{font-family:"Vazirmatn";font-style:normal;font-weight:100 900;font-display:swap;src:url('../fonts/Vazirmatn[wght].woff2') format('woff2')}
+@font-face{font-family:"IRAN-sans";font-style:normal;font-weight:100 900;font-display:swap;src:url('../fonts/Vazirmatn[wght].woff2') format('woff2')}
 @font-face{font-family:"Shekasteh";font-style:normal;font-weight:400;font-display:swap;src:url('../fonts/Shekasteh V2.001.ttf') format('truetype')}
 html,body{font-family:"Vazirmatn","Vazir","A Iranian Sans",Tahoma,Arial,sans-serif}
 body{font-weight:400;line-height:1.75}
