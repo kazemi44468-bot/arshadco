@@ -26,6 +26,11 @@ h6,.h6{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif;font-weight:600;font-si
 #wb_indexText4{font-family:"Shekasteh","A Soraya",serif;font-weight:400;line-height:2.15;letter-spacing:0;text-align:center}
 #wb_indexText4 span{font-family:inherit}
 #wb_indexText6{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif}
-#wb_indexImage6 img,#wb_indexImage2 img,#wb_indexImage10 img,#wb_indexImage9 img{max-width:100%;height:auto}
+#wb_indexImage6{direction:rtl;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;box-sizing:border-box;padding:4px 8px;overflow:visible}
+#wb_indexImage6.arshad-brand-lockup{font-family:"Vazirmatn",Tahoma,sans-serif}
+#wb_indexImage6 .arshad-brand-name{font-family:"Shekasteh","A Soraya",serif;font-size:clamp(31px,3.2vw,47px);font-weight:400;line-height:1.2;white-space:nowrap;letter-spacing:0;text-shadow:0 1px 0 rgba(255,255,255,.45)}
+#wb_indexImage6 .arshad-brand-en{font-family:Arial,sans-serif;font-size:clamp(10px,1.05vw,13px);font-weight:600;line-height:1.35;direction:ltr;letter-spacing:.7px;margin-top:1px;white-space:nowrap;opacity:.9}
+#wb_indexImage6 .arshad-brand-slogan{font-family:"Shekasteh","A Soraya",serif;font-size:clamp(21px,2.1vw,30px);font-weight:400;line-height:1.25;margin-top:5px;white-space:nowrap}
+#wb_indexImage2 img,#wb_indexImage10 img,#wb_indexImage9 img{max-width:100%;height:auto}
 #wb_indexText2,#wb_indexText1,#wb_indexText3,#wb_indexText5,#wb_indexText8,#wb_indexText9{box-sizing:border-box}
-@media(max-width:700px){#bagamedovomTabs1 .ui-tabs-nav li a{font-size:11px;padding:7px 2px}#wb_indexText4{font-size:clamp(22px,6vw,30px)}#wb_indexText9,#wb_indexText3,#wb_indexText5,#wb_indexText8,#wb_indexText2,#wb_indexText1{line-height:1.9;font-size:14px}#wb_indexText4{line-height:2}}
+@media(max-width:700px){#bagamedovomTabs1 .ui-tabs-nav li a{font-size:11px;padding:7px 2px}#wb_indexText4{font-size:clamp(22px,6vw,30px)}#wb_indexText9,#wb_indexText3,#wb_indexText5,#wb_indexText8,#wb_indexText2,#wb_indexText1{line-height:1.9;font-size:14px}#wb_indexText4{line-height:2}#wb_indexImage6{padding:3px 4px}#wb_indexImage6 .arshad-brand-name{font-size:clamp(25px,7vw,35px)}#wb_indexImage6 .arshad-brand-en{font-size:9px;letter-spacing:.4px;margin-top:0}#wb_indexImage6 .arshad-brand-slogan{font-size:clamp(18px,5vw,25px);margin-top:3px}}
