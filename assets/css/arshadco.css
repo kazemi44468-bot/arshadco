@@ -5,7 +5,7 @@
 @font-face{font-family:"IRAN-sans";font-style:normal;font-weight:100 900;font-display:swap;src:url('../fonts/Vazirmatn[wght].woff2') format('woff2')}
 @font-face{font-family:"Shekasteh";font-style:normal;font-weight:400;font-display:swap;src:url('../fonts/Shekasteh V2.001.ttf') format('truetype')}
 html,body{font-family:"Vazirmatn","Vazir","A Iranian Sans",Tahoma,Arial,sans-serif}
-body{font-weight:400;line-height:1.75}
+body{font-weight:400;line-height:1.75;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 h1,.h1{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif;font-weight:800;font-size:32px;text-decoration:none;color:#000000;--color:#000000;background-color:transparent;margin:0;padding:0;display:inline}
 h2,.h2{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif;font-weight:800;font-size:27px;text-decoration:none;color:#000000;--color:#000000;background-color:transparent;margin:0;padding:0;display:inline}
 h3,.h3{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif;font-weight:700;font-size:24px;text-decoration:none;color:#000000;--color:#000000;background-color:transparent;margin:0;padding:0;display:inline}
@@ -14,10 +14,18 @@ h5,.h5{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif;font-weight:700;font-si
 h6,.h6{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif;font-weight:600;font-size:16px;text-decoration:none;color:#000000;--color:#000000;background-color:transparent;margin:0;padding:0;display:inline}
 .CustomStyle{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif;font-weight:700;font-size:16px;text-decoration:none;color:#2E74B5;--color:#2E74B5;background-color:transparent}
 #bagamedovomTabs1 .ui-tabs-nav,#bagamedovomTabs1 .ui-tabs-nav li,#bagamedovomTabs1 .ui-tabs-nav li a{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif}
-#bagamedovomTabs1 .ui-tabs-nav li a{font-weight:600;font-size:13px;letter-spacing:-.1px}
-#wb_indexText9,#wb_indexText3,#wb_indexText5,#wb_indexText8,#wb_indexText2,#wb_indexText1{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif;font-weight:400;line-height:2}
+#bagamedovomTabs1 .ui-tabs-nav li a{font-weight:600;font-size:13px;letter-spacing:-.1px;transition:all .2s ease}
+#bagamedovomTabs1 .ui-tabs-nav li a:hover{transform:translateY(-1px)}
+#bagamedovomTabs1 .ui-tabs-panel{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif}
+#wb_indexText9,#wb_indexText3,#wb_indexText5,#wb_indexText8,#wb_indexText2,#wb_indexText1{font-family:"Vazirmatn","Vazir","A Iranian Sans",Tahoma,Arial,sans-serif;font-weight:400;line-height:2;text-rendering:optimizeLegibility}
 #wb_indexText9 p,#wb_indexText3 li,#wb_indexText5 li,#wb_indexText5 p,#wb_indexText8 li,#wb_indexText8 p{font-family:inherit}
-#wb_indexText4{font-family:"Shekasteh","A Soraya",serif;font-weight:400;line-height:2.15;letter-spacing:0}
+#wb_indexText3 li,#wb_indexText5 li,#wb_indexText8 li{font-weight:650}
+#wb_indexText5 p,#wb_indexText8 p{font-weight:450}
+#wb_indexText2,#wb_indexText1{font-size:15px;line-height:2.05;text-align:justify}
+#wb_indexText9{font-size:15px;line-height:2.05}
+#wb_indexText4{font-family:"Shekasteh","A Soraya",serif;font-weight:400;line-height:2.15;letter-spacing:0;text-align:center}
 #wb_indexText4 span{font-family:inherit}
 #wb_indexText6{font-family:"Vazirmatn","Vazir",Tahoma,sans-serif}
-@media(max-width:700px){#bagamedovomTabs1 .ui-tabs-nav li a{font-size:11px;padding:7px 2px}#wb_indexText4{font-size:clamp(22px,6vw,30px)}#wb_indexText9,#wb_indexText3,#wb_indexText5,#wb_indexText8,#wb_indexText2,#wb_indexText1{line-height:1.9}}
+#wb_indexImage6 img,#wb_indexImage2 img,#wb_indexImage10 img,#wb_indexImage9 img{max-width:100%;height:auto}
+#wb_indexText2,#wb_indexText1,#wb_indexText3,#wb_indexText5,#wb_indexText8,#wb_indexText9{box-sizing:border-box}
+@media(max-width:700px){#bagamedovomTabs1 .ui-tabs-nav li a{font-size:11px;padding:7px 2px}#wb_indexText4{font-size:clamp(22px,6vw,30px)}#wb_indexText9,#wb_indexText3,#wb_indexText5,#wb_indexText8,#wb_indexText2,#wb_indexText1{line-height:1.9;font-size:14px}#wb_indexText4{line-height:2}}
